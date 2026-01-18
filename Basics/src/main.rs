@@ -31,4 +31,10 @@ fn main() {
     println!("Value of Constant String is {HAPPY_CODE}");
     println!("Value of Integer is {HAPPY_CODE1}");
     println!("Value of Float is {HAPPY_CODE2}");
+
+    let k = 78;
+    println!("Value of Int is {k}");
+
+    // when we want to declare a type then use : with variable name, otherwise this can be used directly
+    
 }
