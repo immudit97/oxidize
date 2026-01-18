@@ -36,5 +36,5 @@ fn main() {
     println!("Value of Int is {k}");
 
     // when we want to declare a type then use : with variable name, otherwise this can be used directly
-    
+    // this goes in rust like
 }
