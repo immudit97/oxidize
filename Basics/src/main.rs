@@ -13,6 +13,17 @@ fn main() {
         println!("Value of y 3 is {y}");
     }
 
+    // Shaddowing
+    let z :i32 = 8;
+
+    let z = y + z;
+    println!("Value of z is {z}");
+
+    {
+        let z = z * 2;
+        println!("Value of z 3 is {z}");
+    }
+
     const HAPPY_CODE: &str= "Hello World";
     const HAPPY_CODE1: i64= 5;
     const HAPPY_CODE2: f64= 7.7;
